@@ -80,6 +80,16 @@ nav a:hover{
     margin: 0 auto;
     border-radius: 50%;
 }
+.core a{
+    color:purple;
+    text-decoration:none;
+}
+.core a:hover{
+    color:lightpink;
+    background-color: purple;
+    border-radius: 3px;
+    padding: 0.01rem;
+}
 .canvas{
     display: flex;
     border: 0.5px solid black;
@@ -87,7 +97,7 @@ nav a:hover{
 .stand{
     border:0.5px solid black;
     width:300px;
-    height:450px;
+    height:auto;
     margin: 2rem;
     flex-basis:50%;
     justify-content: center;
@@ -95,6 +105,7 @@ nav a:hover{
     background-color: white;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
 }
 .stand img,.stand p{
     margin: 10px;
