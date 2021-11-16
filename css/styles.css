@@ -20,9 +20,10 @@ body{
 .upperleftcontainer img{
     border-radius: 3px;
     padding: 5px;
-    border: 3px dashed black;
+    border: 3px dashed white;
 }
 .upperrightcontainer{
+    color: white;
     text-align: left;
     flex-basis: 50%;
     font-family: 'Luckiest Guy', cursive;
@@ -96,7 +97,7 @@ nav a:hover{
 }
 .stand{
     border:0.5px solid black;
-    width:300px;
+    width:30%;
     height:auto;
     margin: 2rem;
     flex-basis:50%;
@@ -109,6 +110,10 @@ nav a:hover{
 }
 .stand img,.stand p{
     margin: 10px;
+}
+.stand:hover{
+    border: 1px;
+    border: black dashed;
 }
 .footer{
     border: 0.5px solid black;
@@ -190,4 +195,15 @@ button{
 button:hover{
     background-color: white;
     color:#1d3bcf;
+}
+.colorful{
+    font-style: oblique;
+    color: black;
+    border-radius: 5px;
+}
+.colorful:hover{
+    background-color: pink;
+    color:#1d3bcf;
+    padding: 0.5rem;`
+    
 }

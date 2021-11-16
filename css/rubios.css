@@ -1,0 +1,32 @@
+body{
+    background-color: tan;
+    justify-content: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    background-color: black; 
+}
+.upperleftcontainer{
+    align-items: left;
+}
+.upperrightcontainer{
+    text-align: center;
+    color: white;
+}
+.upper{
+
+}
+.bulk{
+
+}
+.bottom{
+    margin: 0 0;
+    background-color: black;
+    justify-content: center;
+}
+.bottom p{
+    text-align: center;
+    color: white;
+    margin: 0.5rem;
+}

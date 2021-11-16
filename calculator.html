@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class = "color-picker">
+            <p>Enter a color in the boxes to change respective colors.</p>
+            <label for="button-color">Lefthand Button Color:</label>
+            <input type="text" id="button-color" name="button-color" placeholder = "#d8d9db">
+            <label for= "Operator-color">Operator Button Color:</label>
+            <input type="text" id="operator-color" name="operator-color" placeholder = "#df974c">
+            <label for="textcolor">Text Color</label>
+            <input type="text" id="text-color" name="text-color" placeholder="black">
+            <label for = "screen-background">Screen Background Color</label>
+            <input type="text" id="screen-background" name="screen-background" placeholder="white">
+        </section>
+
+        <section class="screen">
+            0
+        </section>
+    
+        <section class="calc-buttons">
+            <div class="calc-button-row">
+                <!--Two classes in quotes instead of two class='s-->
+                <button class="calc-button double">C</button>
+                <button class="calc-button">&larr;</button>
+                <button class="calc-button operator">&divide;</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">7</button>
+                <button class="calc-button">8</button>
+                <button class="calc-button">9</button>
+                <button class="calc-button operator">&times;</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">4</button>
+                <button class="calc-button">5</button>
+                <button class="calc-button">6</button>
+                <button class="calc-button operator">&minus;</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">1</button>
+                <button class="calc-button">2</button>
+                <button class="calc-button">3</button>
+                <button class="calc-button operator">&plus;</button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button triple">0</button>
+                <button class="calc-button operator">&equals;</button>
+            </div>
+        </section>
+    </div>
+    <script src="JS/calculator.js"></script>
+</body>
+</html>
