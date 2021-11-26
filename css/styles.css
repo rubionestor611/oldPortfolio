@@ -124,7 +124,7 @@ nav a:hover{
 }
 section{
     margin: 5px -10px 5px 5px;
-    flex-basis: 73%;
+    flex-basis: 50%;
     display:flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -138,12 +138,6 @@ section [type="radio"]{
     display:inline-block;
     margin: 3px auto 0 auto;
 
-}
-fieldset{
-    background-color: #77d9b3;
-    border-radius: 5px;
-    width: 80%;
-    border: 1px solid black;
 }
 legend{
     background-color: lightpink;
@@ -171,8 +165,12 @@ aside{
     margin: auto auto;
     width:fit-content;
 }
+aside *{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
 textarea{
-    width: 60%;
+    width: 75%;
     resize:vertical;
     max-height: 500px;
 }
@@ -183,6 +181,23 @@ textarea{
     display: flex;
     flex-flow: row nowrap;
     border: 0.5px solid black;
+}
+fieldset{
+    background-color: #77d9b3;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    border-radius: 5px;
+    border: 4px solid rgb(160, 105, 105);
+    width: 100%;
+}
+fieldset *{
+    margin: auto auto;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: .5rem;
 }
 button{
     border-radius: 5px;
