@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestor Rubio Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="css/stock.css" rel="stylesheet"> 
+</head>
+<body>
+    <!--<script type="application/javascript">
+        const alpha = alphavantage({key: 'IQU282I8RDPIUSEY'});
+    </script> -->
+    <script src="your-stocks-api/node_modules/common.js"></script>
+    <div class = "pane">
+        <div class = "title">
+            <p>Nestor's Stock Researcher</p>
+        </div>
+        <div class = "description">
+            <p>
+                This is my fun little dabble into API calls and being able to
+                use the returned information then presenting it in a decent looking format.
+            </p>
+            <p><b>I hope you enjoy!</b></p>
+        </div>
+    </div>
+    <div class = "app">
+        <form id = "stock" name = "userentry" accept-charset="utf-8">
+           <fieldset id = "stockentry">
+               <label for = "ticker">Ticker Symbol</label>
+               <input class = "usertxt" type = "text" name = "ticker_field" id = "ticker" placeholder="AAPL" required = "">
+               <input class = "button" type = "button" value = "search">
+            </fieldset>
+        </form>
+        <div class = "presentation">
+            <label id = "ticksymbol" class = "ticker">Ticker</label>
+            <label class = "price">Current Price</label>
+            <label class = "high">52-week high</label>
+            <label class = "low">52-week low</label>
+        </div>
+    </div>
+    <script type = "module" src="your-stocks-api/stock.js"></script>
+</body>
+</html>

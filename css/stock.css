@@ -1,0 +1,63 @@
+body{
+    background-color: darkcyan;
+    justify-content: center;
+}
+.pane{
+    border: 2px black double;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-size: 5rem;
+}
+.description{
+    border-top: 2px black double;
+    text-align: center;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+.app{
+    border: 2px lightcyan solid;
+    border-radius: 3rem;
+    background-color: grey;
+}
+.app form{
+    margin: auto;
+    justify-content: center;
+    display: flexbox;
+    flex-basis: 2rem;
+    flex-flow: row nowrap;
+    border: none;
+}
+.app fieldset{
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+.ticker{
+    grid-area: ticker;
+}
+.price{
+    grid-area: price;
+}
+.low{
+    grid-area: 52-lo;
+}
+.high{
+    grid-area: 52-hi;
+}
+.presentation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 3em 3em;
+    grid-template-areas:
+    "ticker ticker"
+    "price  price"
+    "52-lo 52-hi";
+    gap: 5px;
+    text-align: center;
+}
